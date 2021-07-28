@@ -13,13 +13,11 @@
 
 Install dependencies:
 
-    stack install directory
-    stack install wreq
-    stack install network-uri
+    stack install directory wreq network-uri curl
 
 Compile:
 
-    stack exec ghc -- main.hs -o 99ports
+    stack ghc -- main.hs -o 99ports
 
 Install:
 
